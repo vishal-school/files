@@ -142,7 +142,9 @@ Route::match(['get','post'],'/logout', [MainSiteController::class, 'logoutdata']
 
 //Route::get('/transport-insert', [TransportController::class, 'transportdata']);
 
-
+Route::get('/contact', function () {
+    return view('layouts.Home.Site.contact_us');
+ });
 
 
 

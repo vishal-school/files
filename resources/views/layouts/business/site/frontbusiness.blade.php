@@ -7,7 +7,7 @@
                     <div class="card">
                         <div class="card-body">
                         <h4 class="card-title text-center"><b>
-                          Transport Detail and Specialist Route   </b> 
+                          Business Detail and Specialist Route   </b> 
                         <span class="float-right">
                             <!-- <a class="btn btn-primary" href="" role="button">Add New </a> -->
                         </span>

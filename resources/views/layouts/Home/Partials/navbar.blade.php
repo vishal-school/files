@@ -110,6 +110,9 @@
       <li class="nav-item active">
         <a class="nav-link text-white" href="{{ url('/find_loads') }}">Find Loads <span class="sr-only">(current)</span></a>
       </li> 
+      <li class="nav-item active">
+        <a class="nav-link text-white" href="{{ url('/contact') }}">Contact US <span class="sr-only">(current)</span></a>
+      </li> 
      
   <!-------------------------------------------------->    
     </ul>
