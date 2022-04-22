@@ -243,8 +243,8 @@ Route::get('/insert_business', function ()    {
 Route::get('/home', [MainSiteController::class, 'Home'])->name('home');
 
 
-// Route::get('/', function () {
-//     return redirect('/home');
-// });
+Route::get('/', function () {
+    return redirect('/home');
+});
 
 /*   Home Routes End    */
