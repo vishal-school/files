@@ -112,7 +112,7 @@
         <a class="nav-link text-white" href="{{ url('/insert-route') }}">Insert Route <span class="sr-only">(current)</span></a>
       </li> 
       <li class="nav-item active">
-        <a class="nav-link text-white" href="{{ url('/routes') }}">Delete Route <span class="sr-only">(current)</span></a>
+        <a class="nav-link text-white" href="{{ route('/routes') }}">Delete Route <span class="sr-only">(current)</span></a>
       </li>
       
       @endif
