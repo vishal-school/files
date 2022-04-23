@@ -12,7 +12,7 @@
   <body>
     
     {{-- Navbar --}}
-    @include('layouts.Auth.partials.navbar')
+    @include('layouts.Auth.Partials.navbar')
     {{-- Page content --}}
     @yield('main-content')
 
