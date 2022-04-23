@@ -196,12 +196,12 @@ Route::get('/special-route', function () {
     /*   Business Routes Start    */
   
 
-    Route::match(['get','post'],'/routes', [BusinessrouteController::class, 'routedelete'])->name('routes');
+Route::match(['get','post'],'/routes', [BusinessrouteController::class, 'routedelete']);
 
-    Route::get('/delete_route_id/{id}', [BusinessrouteController::class, 'routedeleteid'])->name('deleteid.route');
+Route::get('/delete_route_id/{id}', [BusinessrouteController::class, 'routedeleteid'])->name('deleteid.route');
     
 
-    Route::match(['get','post'],'/businessboard', [BusinessController::class, 'businessboardview'])->name('business.dashboard');
+Route::match(['get','post'],'/businessboard', [BusinessController::class, 'businessboardview'])->name('business.dashboard');
 
 
 Route::match(['get','post'],'/insert-busi', [BusinessController::class, 'Business'])->name('insert.business');

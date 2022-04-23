@@ -111,38 +111,18 @@
         <li class="nav-item active">
         <a class="nav-link text-white" href="{{ url('/insert-route') }}">Insert Route <span class="sr-only">(current)</span></a>
       </li> 
+
       <li class="nav-item active">
         <a class="nav-link text-white" href="{{ url('/routes') }}">Delete Route <span class="sr-only">(current)</span></a>
       </li>
       
       @endif
 
-       <!-- <li class="nav-item active">
-        <a class="nav-link text-white" href="{{ url('/find_loads') }}">Find Loads <span class="sr-only">(current)</span></a>
-      </li>  -->
+       
 
       <!-------------------------------------------------->     
 
  
-     <!-- <li class="nav-item active">
-        <a class="nav-link text-white" href="{{ route('transport.login') }}">Transport Login <span class="sr-only">(current)</span></a>
-      </li> 
-      
-
-        <li class="nav-item active">
-        <a class="nav-link text-white" href="{{ url('/insert_transport') }}">Insert Transport <span class="sr-only">(current)</span></a>
-      </li> 
-       <li class="nav-item active">
-        <a class="nav-link text-white" href="{{ route('business.register') }}">Business Register<span class="sr-only">(current)</span></a>
-      </li> 
-       <li class="nav-item active">
-        <a class="nav-link text-white" href="{{ route('transport.register') }}">Register Transport <span class="sr-only">(current)</span></a>
-      </li> 
-      <li class="nav-item active">
-        <a class="nav-link text-white" href="{{ url('online_directory') }}">Transport Directory <span class="sr-only">(current)</span></a>
-      </li> 
-
- -->
       <li class="nav-item active">
         <a class="nav-link text-white" href="{{ url('/logout') }}">Logout <span class="sr-only">(current)</span></a>
       </li> 
