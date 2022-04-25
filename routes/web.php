@@ -196,7 +196,7 @@ Route::get('/special-route', function () {
     /*   Business Routes Start    */
   
 
-Route::match(['get','post'],'/routes', [BusinessrouteController::class, 'routedelete']);
+Route::get('/bussiness-routes', [BusinessrouteController::class, 'routedelete'])->name('bussiness.route');
 
 Route::get('/delete_route_id/{id}', [BusinessrouteController::class, 'routedeleteid'])->name('deleteid.route');
     
